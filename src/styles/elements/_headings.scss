@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	& {
+		line-height: 1.25;
+	}
+
+	a {
+		color: inherit;
+	}
+}
+
+h1 {
+	font-size: calc(1rem + 11px);
+}
+
+h2 {
+	font-size: calc(1rem + 9px);
+}
+
+h3 {
+	font-size: calc(1rem + 7px);
+}
+
+h4 {
+	font-size: calc(1rem + 4px);
+}
+
+h5 {
+	font-size: calc(1rem + 3px);
+}
+
+h6 {
+	font-size: calc(1rem + 1px);
+}
